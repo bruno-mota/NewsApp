@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/title"
+        style="@style/title"
+        android:text="Placeholder text for the title which may be long and take up two lines."
+        />
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="author"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/section"
+            style="@style/date_section"
+            android:text="section"/>
+        <TextView
+            android:id="@+id/date"
+            style="@style/date_section"
+            android:text="date"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
